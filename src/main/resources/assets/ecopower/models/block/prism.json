@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "glass": "minecraft:block/glass",
+    "stand_side": "minecraft:block/oak_log",
+    "stand_cap": "minecraft:block/oak_log_top",
+    "particle": "minecraft:block/oak_log_top"
+  },
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "name": "glass",
+      "from": [4, 2, 4],
+      "to": [12, 16, 12],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#glass"}
+      }
+    },
+    {
+      "name": "stand",
+      "from": [0, 0, 0],
+      "to": [16, 2, 16],
+      "faces": {
+        "north": {"uv": [0, 14, 16, 16], "texture": "#stand_side"},
+        "east": {"uv": [0, 14, 16, 16], "texture": "#stand_side"},
+        "south": {"uv": [0, 14, 16, 16], "texture": "#stand_side"},
+        "west": {"uv": [0, 14, 16, 16], "texture": "#stand_side"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#stand_cap"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#stand_cap"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "ecopower:block/mirror"
+    },
+    "facing=west": {
+      "model": "ecopower:block/mirror",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ecopower:block/mirror",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ecopower:block/mirror",
+      "y": -90
+    }
+  }
+}

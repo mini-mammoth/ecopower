@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "ecopower:block/prism"
+    },
+    "facing=down": {
+      "model": "ecopower:block/prism",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "ecopower:block/prism",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "ecopower:block/prism",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ecopower:block/prism",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ecopower:block/prism",
+      "x": 90,
+      "y": -90
+    }
+  }
+}
